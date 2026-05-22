@@ -1,0 +1,70 @@
+/* ContentPilot minimal responsive fixes. Keeps the original UI structure intact. */
+:root { --cp-sidebar-width: 280px; --cp-sidebar-compact-width: 82px; }
+html, body { max-width: 100%; overflow-x: hidden; }
+.logo-img { max-width: 190px; height: auto; object-fit: contain; }
+.logo-img.logo-icon { max-width: 40px; }
+.auth-logo-link { max-height: none !important; }
+.auth-logo-wrap { width: 64px; height: 64px !important; display: inline-flex; align-items: center; justify-content: center; }
+.auth-logo-icon { width: 64px; height: 64px !important; max-width: 64px !important; object-fit: contain; }
+
+.nk-wrap, .nk-content, .container, .container-fluid, .card, .card-body { min-width: 0; }
+.nk-content .container-fluid { max-width: 100%; }
+.table-responsive, .nk-tb-list { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+.nk-block-head-between { gap: 1rem; }
+.nk-block-head-content { min-width: 0; }
+.nk-block-title, .display-6 { overflow-wrap: anywhere; }
+.form-control, .form-select, textarea { max-width: 100%; }
+img { max-width: 100%; }
+
+.nk-wrap.has-shape { min-height: 100vh; }
+.nk-wrap.has-shape .logo-wrap { display: inline-flex; justify-content: center; }
+.nk-wrap.has-shape .nk-block { background: #fff; border: 1px solid rgba(15,23,42,.08); border-radius: 24px; padding: 2rem; box-shadow: 0 24px 70px rgba(15,23,42,.10); }
+.nk-wrap.has-shape .form-control { min-height: 48px; border-radius: 12px; }
+.nk-wrap.has-shape .btn { min-height: 48px; border-radius: 12px; }
+
+@media (min-width: 992px) {
+  body.sidebar-compact .nk-sidebar { width: var(--cp-sidebar-compact-width) !important; }
+  body.sidebar-compact .nk-wrap { padding-left: var(--cp-sidebar-compact-width) !important; }
+  body.sidebar-compact .nk-sidebar .nk-menu-text,
+  body.sidebar-compact .nk-sidebar .nk-menu-sub,
+  body.sidebar-compact .nk-sidebar .nk-sidebar-footer,
+  body.sidebar-compact .nk-sidebar .logo-light,
+  body.sidebar-compact .nk-sidebar .logo-dark { display: none !important; }
+  body.sidebar-compact .nk-sidebar .logo-icon { display: block !important; }
+  body.sidebar-compact .nk-sidebar .nk-menu-link { justify-content: center; padding-left: .75rem; padding-right: .75rem; }
+  body.sidebar-compact .nk-sidebar .nk-menu-icon { margin-right: 0 !important; }
+}
+
+@media (max-width: 991.98px) {
+  .nk-main { display: block; }
+  .nk-sidebar { position: fixed !important; top: 0; left: 0; bottom: 0; width: min(86vw, 300px) !important; max-width: 300px; transform: translateX(-105%); transition: transform .25s ease; z-index: 1055; box-shadow: 24px 0 60px rgba(15,23,42,.20); }
+  body.sidebar-open .nk-sidebar, .nk-sidebar.is-open { transform: translateX(0) !important; }
+  .nk-wrap { padding-left: 0 !important; margin-left: 0 !important; width: 100% !important; }
+  .nk-header-fixed { left: 0 !important; right: 0 !important; width: 100% !important; }
+  .nk-content { padding-left: .75rem; padding-right: .75rem; }
+  .nk-content .container-fluid { padding-left: .75rem; padding-right: .75rem; }
+  body.sidebar-open::after { content: ""; position: fixed; inset: 0; background: rgba(15,23,42,.45); z-index: 1050; }
+  body.sidebar-open .nk-sidebar { z-index: 1056; }
+  .nk-block-head-between { flex-direction: column; align-items: flex-start !important; }
+  .nk-header-tools .dropdown-menu { max-width: calc(100vw - 1.5rem); }
+}
+
+@media (max-width: 767.98px) {
+  .nk-wrap.has-shape .container { padding-left: 1rem !important; padding-right: 1rem !important; }
+  .nk-wrap.has-shape .nk-block { padding: 1.25rem; border-radius: 18px; }
+  .nk-block-title, .display-6 { font-size: 1.65rem !important; line-height: 1.2; }
+  .nk-block-head { margin-bottom: 1rem; }
+  .card-body { padding: 1rem; }
+  .nk-editor-header { flex-wrap: wrap; gap: .75rem; }
+  .nk-editor-main, .nk-editor-body, .js-editor { min-height: 320px; }
+}
+
+@media (max-width: 575.98px) {
+  .logo-img { max-width: 160px; }
+  .nk-header-logo .logo-img { max-width: 145px; }
+  .nk-content { padding-top: 1rem; }
+  .btn, .form-control, .form-select { width: 100%; }
+  .d-flex.justify-content-between { gap: .75rem; flex-wrap: wrap; }
+  .nk-footer .d-flex { gap: .5rem; }
+  .nk-footer .nav { justify-content: center; }
+}
