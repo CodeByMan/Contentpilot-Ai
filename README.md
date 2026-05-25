@@ -26,7 +26,6 @@
 
 ## 📸 Project Screenshots
 
-> Screenshots are stored inside the `screenshots/` folder.
 
 | Frontend / Home Page | Login Page |
 |---|---|
@@ -624,29 +623,6 @@ Recommended production settings:
 APP_ENV=production
 APP_DEBUG=false
 ```
-
----
-
-## 📌 Repository Information
-
-Recommended repository name:
-
-```text
-contentpilot-ai-saas
-```
-
-Suggested repository description:
-
-```text
-A Laravel-based AI content SaaS platform with templates, OpenAI generation, admin/client dashboards, plans, invoices, documents, and media generation pages.
-```
-
-Suggested topics:
-
-```text
-laravel php mysql ai-content-generator openai saas dashboard blade bootstrap content-platform invoices templates generated-documents
-```
-
 ---
 
 ## 👨‍💻 Author
@@ -666,6 +642,3 @@ This project is provided for portfolio and learning purposes.
   <b>⭐ If you like this project, consider starring the repository!</b>
 </p>
 
-<p align="center">
-  <b>🤖 ContentPilot — Smart AI Content Generation with Laravel</b>
-</p>
