@@ -1,0 +1,110 @@
+# Environment and credentials
+/.env
+/.env.*
+!/.env.example
+/auth.json
+/.npmrc
+/.yarnrc
+/.yarnrc.yml
+
+# PHP and Composer dependencies
+/vendor/
+composer.phar
+.phpactor.json
+.phpunit.result.cache
+/.phpunit.cache/
+/.pest.cache/
+
+# Node dependencies and debug output
+/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Laravel generated files
+/public/build/
+/public/hot
+/public/storage
+/bootstrap/cache/*
+!/bootstrap/cache/.gitignore
+/storage/*.key
+/storage/app/private/*
+!/storage/app/private/.gitignore
+/storage/app/public/*
+!/storage/app/public/.gitignore
+/storage/framework/cache/data/*
+!/storage/framework/cache/data/.gitignore
+/storage/framework/sessions/*
+!/storage/framework/sessions/.gitignore
+/storage/framework/testing/*
+!/storage/framework/testing/.gitignore
+/storage/framework/views/*
+!/storage/framework/views/.gitignore
+/storage/logs/*
+!/storage/logs/.gitignore
+/storage/pail/
+
+# Local databases, exports, and runtime backups
+/database/*.sqlite
+/database/*.sqlite3
+/database/*.db
+/*.sql
+/*.sql.gz
+/*.dump
+/*.bak
+/*.backup
+/*.old
+/*.orig
+/*.rej
+/*.tmp
+/*.temp
+/*.patch
+/*.diff
+/*.zip
+/*.7z
+/*.tar
+/*.tar.gz
+
+# Test and analysis output
+/coverage/
+/build/
+/dist/
+/.phpunit.cache/
+
+# Local-only project documentation
+# These files remain available in the local project but are not published to GitHub.
+/THIRD_PARTY_NOTICES.md
+/CHANGELOG.md
+/CONTRIBUTING.md
+/SECURITY.md
+/docs/ARCHITECTURE.md
+/docs/DEPLOYMENT.md
+/docs/FRONTEND.md
+
+# IDEs and local tooling
+/.idea/
+/.fleet/
+/.nova/
+/.vscode/
+/.zed/
+/.cursor/
+/.claude/
+/.codex/
+*.code-workspace
+
+# OS-generated files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Legacy local development files
+Homestead.json
+Homestead.yaml

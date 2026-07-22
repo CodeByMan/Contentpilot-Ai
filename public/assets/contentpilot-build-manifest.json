@@ -1,0 +1,47 @@
+{
+  "schema": 2,
+  "generated": [
+    {
+      "source": "resources/css/contentpilot.css",
+      "output": "public/assets/css/contentpilot.css",
+      "bytes": 97566,
+      "sha256": "bd81e10fc326250ab79ef2fda42351bf0eaf94daeb0ee86934d3859aa5c5ab5a",
+      "ownership": "project-owned-css"
+    },
+    {
+      "source": "resources/js/contentpilot.js",
+      "output": "public/assets/js/contentpilot.js",
+      "bytes": 12685,
+      "sha256": "8c878f1cdb8695227c77e63280e40162c610084fa59d80ab9e1c458f92316c39",
+      "ownership": "project-owned-js"
+    }
+  ],
+  "staticAssets": [
+    {
+      "path": "public/assets/images/contentpilot-icon.svg",
+      "bytes": 1042,
+      "sha256": "550dbc5aa5bd8d2c99e0e145c97699297cfc787580d0d95b05f932fbf1441a79",
+      "ownership": "project-owned"
+    },
+    {
+      "path": "public/assets/images/contentpilot-logo.svg",
+      "bytes": 937,
+      "sha256": "487f204ba9668844690b47a2b6b676ede8465e76b6dd78c01438fbc720e653f7",
+      "ownership": "project-owned"
+    },
+    {
+      "path": "public/assets/images/contentpilot-logo-light.svg",
+      "bytes": 949,
+      "sha256": "96c99e0c1195d7936b7cc24d3f7acbba15f968d61959d538137b84dc31c70184",
+      "ownership": "project-owned"
+    },
+    {
+      "path": "public/assets/images/avatar-placeholder.svg",
+      "bytes": 917,
+      "sha256": "78c595038af3680aae2b20ce3d15e5f6d3d4442ab405faa4f77db002f1aa2753",
+      "ownership": "project-owned"
+    }
+  ],
+  "commercialThemeAssets": false,
+  "externalFrontendDependencies": []
+}

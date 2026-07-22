@@ -1,0 +1,13 @@
+<svg width="224" height="48" viewBox="0 0 224 48" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ContentPilot logo">
+  <defs>
+    <linearGradient id="cp-logo-light-gradient" x1="2" y1="1" x2="49" y2="49" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00D4DC"/>
+      <stop offset="0.55" stop-color="#9B5CFF"/>
+      <stop offset="1" stop-color="#FF75C7"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="46" height="46" rx="14" fill="url(#cp-logo-light-gradient)"/>
+  <path d="M14.5 34V14h10.7c6.1 0 10.3 3.6 10.3 8.8s-4.2 8.8-10.3 8.8h-5V34h-5.7Zm5.7-7.4h4.6c3 0 4.8-1.4 4.8-3.8S27.8 19 24.8 19h-4.6v7.6Z" fill="white"/>
+  <path d="M36.7 10.6l.9 2.2 2.2.9-2.2.9-.9 2.2-.9-2.2-2.2-.9 2.2-.9.9-2.2Z" fill="white" fill-opacity="0.94"/>
+  <text x="58" y="31" font-family="Inter, Avenir Next, Arial, sans-serif" font-size="22" font-weight="800" letter-spacing="-0.8" fill="#FFFFFF">ContentPilot</text>
+</svg>

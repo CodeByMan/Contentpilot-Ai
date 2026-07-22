@@ -1,0 +1,17 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ContentPilot icon">
+  <defs>
+    <linearGradient id="cp-icon-gradient" x1="8" y1="7" x2="58" y2="59" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C4CC"/>
+      <stop offset="0.55" stop-color="#7D2AE8"/>
+      <stop offset="1" stop-color="#FF5EBC"/>
+    </linearGradient>
+    <filter id="cp-icon-shadow" x="-8" y="-6" width="80" height="82" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#432169" flood-opacity="0.24"/>
+    </filter>
+  </defs>
+  <g filter="url(#cp-icon-shadow)">
+    <rect x="4" y="3" width="56" height="56" rx="17" fill="url(#cp-icon-gradient)"/>
+    <path d="M21 44V20.2h12.2c7 0 11.8 4.3 11.8 10.5S40.2 41 33.2 41h-5.8v3H21Zm6.4-9.1h5.4c3.5 0 5.6-1.6 5.6-4.2 0-2.7-2.1-4.3-5.6-4.3h-5.4v8.5Z" fill="white"/>
+    <path d="M45.5 16.5l1.3 3.2 3.2 1.3-3.2 1.3-1.3 3.2-1.3-3.2L41 21l3.2-1.3 1.3-3.2Z" fill="white" fill-opacity="0.92"/>
+  </g>
+</svg>

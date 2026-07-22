@@ -1,0 +1,17 @@
+<svg width="160" height="160" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Profile placeholder">
+  <defs>
+    <linearGradient id="cp-avatar-gradient" x1="15" y1="12" x2="145" y2="151" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E8FBFC"/>
+      <stop offset="0.52" stop-color="#F3EAFA"/>
+      <stop offset="1" stop-color="#FFF0F8"/>
+    </linearGradient>
+    <linearGradient id="cp-avatar-person" x1="43" y1="41" x2="118" y2="137" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00AEB6"/>
+      <stop offset="0.55" stop-color="#7D2AE8"/>
+      <stop offset="1" stop-color="#E5479D"/>
+    </linearGradient>
+  </defs>
+  <rect width="160" height="160" rx="80" fill="url(#cp-avatar-gradient)"/>
+  <circle cx="80" cy="61" r="29" fill="url(#cp-avatar-person)"/>
+  <path d="M31 139c4-31 23-48 49-48s45 17 49 48H31Z" fill="url(#cp-avatar-person)"/>
+</svg>
