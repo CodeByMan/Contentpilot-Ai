@@ -13,41 +13,22 @@
   <img src="https://img.shields.io/badge/SaaS-Platform-16A34A?style=for-the-badge" alt="SaaS platform" />
 </p>
 
-<p align="center">
-  <b>AI Templates</b> •
-  <b>Private Media</b> •
-  <b>Admin Dashboard</b> •
-  <b>Client Dashboard</b> •
-  <b>Plans & Invoices</b>
-</p>
-
 ---
 
 ## 📸 Project Screenshots
 
-> Add sanitized screenshots to `docs/screenshots/` before publishing the final repository presentation.
-
-| Landing Page | Login Page |
+| Landing Page | Sign In Page |
 |---|---|
-| ![Landing Page](docs/screenshots/landing-page.png) | ![Login Page](docs/screenshots/login.png) |
+| ![ContentPilot Landing Page](docs/screenshots/home.png) | ![ContentPilot Sign In Page](docs/screenshots/signin.png) |
 
-| Admin Dashboard | Client Dashboard |
+| Dashboard | AI Assistants |
 |---|---|
-| ![Admin Dashboard](docs/screenshots/admin-dashboard.png) | ![Client Dashboard](docs/screenshots/client-dashboard.png) |
+| ![ContentPilot Dashboard](docs/screenshots/dasboard.png) | ![ContentPilot AI Assistants](docs/screenshots/ai_assistant.png) |
 
-| AI Content Generation | AI Assistants |
+| AI Image Generation | Profile Management |
 |---|---|
-| ![AI Content Generation](docs/screenshots/content-generation.png) | ![AI Assistants](docs/screenshots/ai-assistants.png) |
+| ![ContentPilot AI Image Generation](docs/screenshots/image_generate.png) | ![ContentPilot Profile Management](docs/screenshots/profile.png) |
 
-| Image Library | Audio Library |
-|---|---|
-| ![Image Library](docs/screenshots/image-library.png) | ![Audio Library](docs/screenshots/audio-library.png) |
-
-| Plans & Billing | Profile Management |
-|---|---|
-| ![Plans and Billing](docs/screenshots/plans-billing.png) | ![Profile Management](docs/screenshots/profile.png) |
-
-> Never include API keys, private payment receipts, real customer information, production email addresses, or confidential database data in screenshots.
 
 ---
 
@@ -434,7 +415,6 @@ The application uses MySQL or MariaDB with Laravel migrations, factories, and re
 | `/admin/audio` | Generated-audio management |
 | `/admin/cms/*` | Landing-page CMS management |
 
-> Route parameters, middleware, and exact names can be inspected with `php artisan route:list --except-vendor`.
 
 ---
 
@@ -579,8 +559,6 @@ For a disposable local database only:
 php artisan migrate:fresh --seed
 ```
 
-> `migrate:fresh` permanently removes all existing database tables and data. Never run it against a database containing information you need.
-
 ---
 
 ### 9️⃣ Create an Administrator
@@ -702,8 +680,6 @@ To test the application interactively:
 
 1. Register a new client through `/register`, or
 2. Create an administrator with the protected Artisan command shown above.
-
-> Demo records are for local development and portfolio testing only. Never publish real production credentials, password hashes, API keys, payment references, private receipts, or `.env` secrets.
 
 ---
 
@@ -895,45 +871,12 @@ ContentPilot AI distributes project-owned PHP, Blade, CSS, JavaScript, SVG brand
 
 ---
 
-## 📌 Repository Information
-
-Recommended repository name:
-
-```text
-contentpilot-ai
-```
-
-Suggested repository URL:
-
-```text
-https://github.com/CodeByMan/contentpilot-ai
-```
-
-Suggested repository description:
-
-```text
-ContentPilot AI is a secure Laravel 12 SaaS platform for guided AI content, private image and audio generation, assistants, offline plan payments, invoices, and usage tracking.
-```
-
-Suggested topics:
-
-```text
-laravel php mysql mariadb openai ai-content saas blade pest phpunit content-generation image-generation text-to-speech billing invoices secure-uploads portfolio
-```
-
----
-
 ## 👨‍💻 Author
 
 **Muhammad Ali Nawaz**  
-Full-Stack PHP / Laravel Developer  
-Karachi, Pakistan
+Laravel AI-Enabled Developer  
 
-- GitHub: [CodeByMan](https://github.com/CodeByMan)
-- LinkedIn: `https://www.linkedin.com/in/<your-linkedin-handle>`
-- Email: `<your-professional-email>`
 
-Built as a portfolio project to demonstrate practical Laravel SaaS development, secure AI integrations, role-based dashboards, private file handling, offline billing, relational database design, testing, and professional repository preparation.
 
 ---
 
