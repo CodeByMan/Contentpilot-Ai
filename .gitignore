@@ -72,16 +72,6 @@ pnpm-debug.log*
 /dist/
 /.phpunit.cache/
 
-# Local-only project documentation
-# These files remain available in the local project but are not published to GitHub.
-/THIRD_PARTY_NOTICES.md
-/CHANGELOG.md
-/CONTRIBUTING.md
-/SECURITY.md
-/docs/ARCHITECTURE.md
-/docs/DEPLOYMENT.md
-/docs/FRONTEND.md
-
 # IDEs and local tooling
 /.idea/
 /.fleet/
